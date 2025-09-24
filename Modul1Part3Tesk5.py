@@ -1,6 +1,7 @@
-n1 = input("4512")
-n2 = n1[::-1]
-print('2154', n2)
+number_int = int(input())
+number_str = str(number_int)
+reversed_str = number_str[::-1]
+print(int(reversed_str))
 
 
 
