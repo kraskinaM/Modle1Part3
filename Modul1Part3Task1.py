@@ -1,7 +1,7 @@
-a1 = int(input())
-b5 = int(input())
-c7 = int(input())
-print(157)
+a = int(input())
+b = int(input())
+c = int(input())
+print(f"{a}{b}{c}")
 
 
 
