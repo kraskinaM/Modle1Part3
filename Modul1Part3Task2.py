@@ -1,5 +1,6 @@
-a1 = int(input())
-b3 = int(input())
-c2 = int(input())
-d4 = int(input())
-print(a1 * b3 * c2 * d4)
+number = int(input())
+number = list(str(number))
+sum = 1
+for i in number:
+    sum *= int(i)
+print(sum)
